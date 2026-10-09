@@ -9,7 +9,6 @@ public class MainNotificaciones {
 
         Notificacion sms = new NotificacionSMS(
                 "70011223", "Su pago fue confirmado hoy");
-
         Notificacion push = new NotificacionPush(
                 "dispositivo-102", "Nuevo mensaje", 3);
 
